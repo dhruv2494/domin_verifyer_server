@@ -7,7 +7,7 @@ const port = process.env.PORT || 4000;
 app.use(cors()); // Enable CORS for all routes
 app.use(express.json());
 app.get("/", (req, res) => {
-    res.send("server is running");
+    res.send("server is running  ");
 })
 app.get("/verify-domain", (req, res) => {
   const domain = req.query.domain;
